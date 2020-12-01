@@ -17,7 +17,7 @@ end
 
 test_arr = [4, 3, 78, 2, 0, 2]
 n = bubble_sort(test_arr)
-puts "#{n}"
+puts n
 
 def bubble_sort_by(arr)
   run = arr.length - 2
@@ -25,11 +25,11 @@ def bubble_sort_by(arr)
     arr.each_with_index do |_, index|
       next if arr[index + 1].nil? == true
 
-      if yield(arr[index],arr[index + 1]) > 0
-        temp = arr[index]
-        arr[index] = arr[index + 1]
-        arr[index + 1] = temp
-      end
+      next if yield(arr[index], arr[index + 1]).negative?
+
+      temp = arr[index]
+      arr[index] = arr[index + 1]
+      arr[index + 1] = temp
     end
     run -= 1
   end
@@ -37,7 +37,7 @@ def bubble_sort_by(arr)
 end
 
 test_block = %w[hi hello hey]
-a = bubble_sort_by(test_block) do |left,right|
+a = bubble_sort_by(test_block) do |left, right|
   left.length - right.length
 end
-puts "#{a}"
+puts a
