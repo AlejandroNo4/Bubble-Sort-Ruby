@@ -29,14 +29,17 @@ def bubble_sort_by(arr)
     end
     run -= 1
   end
-  arr
+  #arr
+  yield
 end
 
 test_block = %w[hi hello hey]
 test_arr = [4, 3, 78, 2, 0, 2]
 
-complete = bubble_sort(test_arr)
-block = bubble_sort_by(test_block)
+
 
 print complete
 print block
+
+
+block = bubble_sort_by(test_block) {puts test_block}
