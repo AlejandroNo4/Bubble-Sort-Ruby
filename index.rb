@@ -29,7 +29,6 @@ def bubble_sort_by(arr)
     end
     run -= 1
   end
-  #arr
   yield
 end
 
