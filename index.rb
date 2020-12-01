@@ -1,12 +1,14 @@
 def bubble_sort (arr)
+    run=arr.length-2
     for j in 0..arr.length - 2
-        for i in 0..arr.length - 2
+        for i in 0..run
             if (arr[i] > arr[i+1])
                 temp = arr[i]
                 arr[i] = arr[i + 1]
                 arr[i + 1] = temp
             end
         end
+        run -= 1
     end   
     return arr
 end              
