@@ -28,8 +28,6 @@ def bubble_sort_by (arr)
     return arr
 end
 
-#test_arr = [2, 5, 8, 1, 3, 9, 10, 4, 7, 6]
-
 test_block = ["hi","hello","hey"]
 test_arr = [4,3,78,2,0,2]
 

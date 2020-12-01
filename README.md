@@ -5,6 +5,7 @@
 > In this project we implement the bubble sort algorithm. Assignment is focused on the use of yield and passing a block to a method.
 
 ![screenshot](./app_screenshot.png)
+![screenshot](./app_screenshot2.png)
 
 Additional description about the project and its features.
 
