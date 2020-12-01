@@ -1,34 +1,30 @@
 def bubble_sort(arr)
   run = arr.length - 2
-  arr.each do |num|
-      arr.each_with_index do |num2, index|
-        if arr[index + 1].nil? == false
-          if arr[index] > arr[index + 1] 
-            temp = arr[index]
-            arr[index] = arr[index + 1]
-            arr[index + 1] = temp
-          end
-        end
-      end
-      run -= 1
+  arr.each do
+    arr.each_with_index do |num2, index|  
+      next if arr[index + 1].nil? == true
+      next if arr[index] < arr[index + 1] 
+      temp = arr[index]
+      arr[index] = arr[index + 1]
+      arr[index + 1] = temp
+    end
+    run -= 1
   end
 arr
 end
 
-def bubble_sort_by(arr)
-run = arr.length - 2
-arr.each do |num|
-    arr.each_with_index do |num2, index|
-      if arr[index + 1].nil? == false
-        if arr[index].length > arr[index + 1].length 
-          temp = arr[index]
-          arr[index] = arr[index + 1]
-          arr[index + 1] = temp
-        end
-      end
+def bubble_sort_by (arr)
+  run = arr.length - 2
+  arr.each do
+    arr.each_with_index do |num2, index|  
+      next if arr[index + 1].nil? == true
+      next if arr[index].length < arr[index + 1].length 
+      temp = arr[index]
+      arr[index] = arr[index + 1]
+      arr[index + 1] = temp
     end
     run -= 1
-end
+  end
 arr
 end
 
