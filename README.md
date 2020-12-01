@@ -7,11 +7,19 @@
 ![screenshot](./app_screenshot.png)
 ![screenshot](./app_screenshot2.png)
 
+**This project was buid with ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) [x86_64-linux-gnu]**
+
 Additional description about the project and its features.
 
 ## Built With
 
 - Ruby
+
+## Set up locally
+
+- Clone the repository.
+- Open Vscode and run the index file in the terminal with the command [ruby index.rb].
+- feel free to change the values in the array to check the functionality.
 
 ## Authors
 
