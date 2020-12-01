@@ -19,11 +19,12 @@ Additional description about the project and its features.
 - GitHub: [@vichuge](https://github.com/vichuge)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/victor-pacheco-7946aab2/)
 
-👤 **Author2**
+👤 **Alejandro Contreras**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
+- GitHub: [@githubhandle](https://github.com/AlejandroNo4)
+- Twitter: [@Alejand80002666](https://twitter.com/alejand80002666)
+- LinkedIn: [Alejandro Contreras](https://www.linkedin.com/in/alejandro-contreras-rodriguez-b524821b5/)
+
 
 ## 🤝 Contributing
 
