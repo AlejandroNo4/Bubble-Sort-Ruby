@@ -1,76 +1,46 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Bubble Sort
 
-> One paragraph statement about the project.
+> In this project we implement the bubble sort algorithm. Assignment is focused on the use of yield and passing a block to a method.
 
 ![screenshot](./app_screenshot.png)
+![screenshot](./app_screenshot2.png)
+
+**This project was buid with ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) [x86_64-linux-gnu]**
 
 Additional description about the project and its features.
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- Ruby
 
-## Live Demo
+## Set up locally
 
-[Live Demo Link](https://livedemo.com)
-
-
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
+- Clone the repository.
+- Open Vscode and run the index file in the terminal with the command [ruby index.rb].
+- feel free to change the values in the array to check the functionality.
 
 ## Authors
 
-👤 **Author1**
+👤 **Victor Pacheco**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
+- GitHub: [@vichuge](https://github.com/vichuge)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/victor-pacheco-7946aab2/)
 
-👤 **Author2**
+👤 **Alejandro Contreras**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
+- GitHub: [@githubhandle](https://github.com/AlejandroNo4)
+- Twitter: [@Alejand80002666](https://twitter.com/alejand80002666)
+- LinkedIn: [Alejandro Contreras](https://www.linkedin.com/in/alejandro-contreras-rodriguez-b524821b5/)
+
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
+Feel free to check the [issues page](https://github.com/AlejandroNo4/Bubble-Sort-Ruby/issues).
 
 ## Show your support
 
 Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
-
-## 📝 License
-
-This project is [MIT](lic.url) licensed.
