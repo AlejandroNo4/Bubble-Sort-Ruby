@@ -32,7 +32,7 @@ def bubble_sort_by(arr)
   arr
 end
 
-test_block = ['hi', 'hello', 'hey']
+test_block = %w[hi hello hey]
 test_arr = [4, 3, 78, 2, 0, 2]
 
 complete = bubble_sort(test_arr)
