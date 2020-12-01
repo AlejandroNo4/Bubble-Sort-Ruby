@@ -1,31 +1,35 @@
 def bubble_sort(arr)
   run = arr.length - 2
-  for j in 0..arr.length - 2
-    for i in 0..run
-      if arr[i] > arr[i + 1]
-        temp = arr[i]
-        arr[i] = arr[i + 1]
-        arr[i + 1] = temp
+  arr.each do |num|
+      arr.each_with_index do |num2, index|
+        if arr[index + 1].nil? == false
+          if arr[index] > arr[index + 1] 
+            temp = arr[index]
+            arr[index] = arr[index + 1]
+            arr[index + 1] = temp
+          end
+        end
       end
-    end
-    run -= 1
+      run -= 1
   end
-  arr
+arr
 end
 
 def bubble_sort_by(arr)
-  run = arr.length - 2
-  for j in 0..arr.length-2
-    for i in 0..run
-      if arr[i].length > arr[i + 1].length
-        temp = arr[i]
-        arr[i] = arr[i + 1]
-        arr[i + 1] = temp
+run = arr.length - 2
+arr.each do |num|
+    arr.each_with_index do |num2, index|
+      if arr[index + 1].nil? == false
+        if arr[index].length > arr[index + 1].length 
+          temp = arr[index]
+          arr[index] = arr[index + 1]
+          arr[index + 1] = temp
+        end
       end
     end
     run -= 1
-  end
-  arr
+end
+arr
 end
 
 test_block = ['hi', 'hello', 'hey']
